@@ -5,9 +5,11 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def print_board(board):
-    for row in board:
-        print(" ".join(row))
-    print()
+    print("  A B C D E F G")
+    print(" +-+-+-+-+-+-+-+")
+    for i, row in enumerate(board):
+        print(f"{i + 1}|{'|'.join(row)}|")
+        print(" +-+-+-+-+-+-+-+")
 
 def is_valid_location(board, ship, direction, row, col):
     length = len(ship)
@@ -113,3 +115,9 @@ def play_battleship():
 
 if __name__ == "__main__":
     play_battleship()
+
+
+
+     
+
+      
