@@ -1,4 +1,4 @@
-
+DESCRIPTION:
 Function Definitions:
 
 clear_screen(): Clears the console screen, making it visually cleaner.
