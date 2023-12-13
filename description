@@ -1,3 +1,4 @@
+
 Function Definitions:
 
 clear_screen(): Clears the console screen, making it visually cleaner.
@@ -31,6 +32,7 @@ Console Interaction:
 
 Clears the console screen after each action to provide a clean display.
 Prints the game board with appropriate markings ('O' for ships, 'X' for hits, '-' for misses).
+
 Bonus Improvements :
 
 Allows the player to input coordinates with a letter and a digit (e.g., 'A5').
