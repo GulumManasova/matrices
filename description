@@ -7,6 +7,7 @@ place_ship(board, ship, direction): Lets the player place a ship on their board.
 is_hit(board, row, col): Checks if a given coordinate on the board is a hit.
 update_board(board, row, col, result): Updates the board based on the result of a shot.
 is_ship_sunk(board, ship, row, col): Checks if a ship at a given location is completely sunk.
+
 Main Game Loop (play_battleship()):
 
 Asks for the player's name and initializes the game boards for the player and computer.
@@ -14,15 +15,18 @@ Allows the player to place their ships on the board.
 Initiates the battle phase where the player takes shots at the computer's board.
 Tracks the number of shots, updates the boards, and checks for sunk ships.
 Displays the final result, including the number of shots taken, when the game is won.
+
 Game Initialization:
 
 Defines the size of the game board (7x7).
 Specifies the number and size of ships the player needs to place.
 Initializes ship representations using numbers (e.g., '111' for a 3-square ship).
+
 User Interaction:
 
 Utilizes user input to get coordinates for ship placement and shooting.
 Ensures input validity and handles errors.
+
 Console Interaction:
 
 Clears the console screen after each action to provide a clean display.
