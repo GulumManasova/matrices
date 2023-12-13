@@ -12,6 +12,7 @@ is_ship_sunk(board, ship, row, col): Checks if a ship at a given location is com
 
 Main Game Loop (play_battleship()):
 
+
 Asks for the player's name and initializes the game boards for the player and computer.
 Allows the player to place their ships on the board.
 Initiates the battle phase where the player takes shots at the computer's board.
