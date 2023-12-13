@@ -3,6 +3,7 @@ Function Definitions:
 
 clear_screen(): Clears the console screen, making it visually cleaner.
 print_board(board): Prints the game board in a nicely formatted way.
+
 is_valid_location(board, ship, direction, row, col): Checks if placing a ship at a given location is valid.
 place_ship(board, ship, direction): Lets the player place a ship on their board.
 is_hit(board, row, col): Checks if a given coordinate on the board is a hit.
